@@ -8,7 +8,7 @@
 import Foundation
 
 struct Queue<T> {
-    var queue: LinkedList<T> = LinkedList<T>()
+    var queue: LinkedList<T>
     
     var isEmpty: Bool {
         queue.isEmpty
