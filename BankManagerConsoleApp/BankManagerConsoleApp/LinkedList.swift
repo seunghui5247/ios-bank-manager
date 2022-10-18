@@ -19,7 +19,7 @@ struct LinkedList<T> {
         head?.data
     }
     
-    mutating func push(data: T) {
+    private mutating func push(data: T) {
         head = Node(data: data, next: head)
         
         if tail == nil {
