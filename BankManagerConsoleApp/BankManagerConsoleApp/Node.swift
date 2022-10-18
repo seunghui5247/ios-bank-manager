@@ -7,11 +7,11 @@
 
 import Foundation
 
-class Node<T> {
+final class Node<T> {
     var data: T
     var next: Node<T>?
     
-    init(data: T, next: Node<T>? = nil) {
+    init(data: T, next: Node<T>?) {
         self.data = data
         self.next = next
     }
