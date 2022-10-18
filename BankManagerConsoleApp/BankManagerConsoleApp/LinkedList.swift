@@ -33,7 +33,7 @@ struct LinkedList<T> {
             return
         }
         
-        let node = Node(data: data)
+        let node = Node(data: data, next: nil)
         
         tail?.next = node
         tail = node
